@@ -10,9 +10,14 @@ import Eventos from './Eventos';
 import Editais from './Editais';
 import Parceiros from './Parceiros';
 import Contato from './Contato';
+import Empreendedorismo from './Empreendedorismo';
+import EducacaoCultura from './EducacaoCultura';
+import Tecnologia from './Tecnologia';
+import EsporteSaude from './EsporteSaude';
 
 export {
     QuemSomos, Educacao, Esportes, Castracao,
     ApoioPsicologico, Cursos, Transparencia,
-    Doar, Eventos, Editais, Parceiros, Contato
+    Doar, Eventos, Editais, Parceiros, Contato,
+    Empreendedorismo, EducacaoCultura, Tecnologia, EsporteSaude
 };

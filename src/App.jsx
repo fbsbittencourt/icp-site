@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import {
   QuemSomos, Educacao, Esportes, Castracao,
   ApoioPsicologico, Cursos, Transparencia,
-  Doar, Eventos, Editais, Parceiros, Contato
+  Doar, Eventos, Editais, Parceiros, Contato,
+  Empreendedorismo, EducacaoCultura, Tecnologia, EsporteSaude
 } from './pages';
 import { useEffect } from 'react';
 
@@ -40,6 +41,10 @@ function App() {
             <Route path="/editais" element={<Editais />} />
             <Route path="/parceiros" element={<Parceiros />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/empreendedorismo" element={<Empreendedorismo />} />
+            <Route path="/educacao-cultura" element={<EducacaoCultura />} />
+            <Route path="/tecnologia" element={<Tecnologia />} />
+            <Route path="/esporte-saude" element={<EsporteSaude />} />
           </Routes>
         </main>
         <Footer />
